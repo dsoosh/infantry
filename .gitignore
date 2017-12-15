@@ -102,3 +102,6 @@ ENV/
 
 # PyCharm meta
 .idea/
+
+# local django settings
+infantry/settings/local.py
