@@ -14,3 +14,4 @@ pytest-cov = "*"
 [packages]
 
 django = "==2.0"
+pytest-django = "*"
