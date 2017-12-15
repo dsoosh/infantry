@@ -1,1 +1,1 @@
-web: gunicorn infantry.wsgi
+web: gunicorn infantry.wsgi --log-file -
