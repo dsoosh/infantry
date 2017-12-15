@@ -3,6 +3,7 @@ python:
     - "3.6"
 cache: pip
 install:
+    - pip install pipenv --upgrade
     - pipenv install --dev
 script:
     - py.test
