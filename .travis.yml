@@ -6,7 +6,7 @@ install:
     - pip install pipenv --upgrade
     - pipenv install --dev
 script:
-    - py.test -m "not ui"
+    - py.test -m "not ui" --cov-config .covconfig
 deploy:
     provider: heroku
     api_key:
