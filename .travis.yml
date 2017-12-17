@@ -6,7 +6,7 @@ install:
     - pip install pipenv --upgrade
     - pipenv install --dev
 script:
-    - py.test
+    - py.test -m "not ui"
 deploy:
     provider: heroku
     api_key:
